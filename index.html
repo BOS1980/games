@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leezkde - The Ultimate Drift Racing Experience</title>
+    <meta name="description" content="Experience the thrill of drift racing with Leezkde - the most exciting online drift racing game. Master the art of drifting and become the Drift King!">
+    <link rel="canonical" href="https://leezkde.online">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        apple: {
+                            blue: '#007AFF',
+                            gray: '#8E8E93',
+                            lightgray: '#F2F2F7',
+                            darkgray: '#1C1C1E',
+                            red: '#FF3B30',
+                            green: '#34C759'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .text-shadow {
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            }
+            .game-container {
+                aspect-ratio: 16/9;
+                max-height: 70vh;
+            }
+        }
+    </style>
+</head>
+<body class="bg-apple-lightgray dark:bg-apple-darkgray text-gray-800 dark:text-white min-h-screen">
+    <header class="bg-gradient-to-r from-apple-blue to-blue-600 text-white py-6 px-4 md:px-8 shadow-lg">
+        <div class="container mx-auto">
+            <h1 class="text-4xl md:text-5xl font-bold text-center text-shadow">Leezkde</h1>
+            <p class="text-xl md:text-2xl text-center mt-2 italic">Master the drift, rule the road!</p>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <section class="mb-12">
+            <div class="bg-white dark:bg-gray-800 rounded-xl shadow-md overflow-hidden">
+                <div class="game-container w-full mx-auto">
+                    <iframe 
+                        src="https://www.onlinegames.io/games/2024/unity/drift-king/index.html" 
+                        class="w-full h-full border-0"
+                        allowfullscreen
+                        loading="lazy"
+                        title="Leezkde Drift Racing Game">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12 bg-white dark:bg-gray-800 rounded-xl shadow-md p-6">
+            <h2 class="text-2xl md:text-3xl font-bold mb-4 text-apple-blue">About Leezkde</h2>
+            <div class="space-y-4">
+                <p>Leezkde is an adrenaline-pumping drift racing game that puts your driving skills to the ultimate test. With realistic physics, stunning graphics, and responsive controls, this game offers an immersive racing experience like no other.</p>
+                <p>Whether you're a casual gamer or a racing enthusiast, Leezkde provides the perfect balance of accessibility and depth to keep you engaged for hours.</p>
+            </div>
+        </section>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+            <section class="bg-white dark:bg-gray-800 rounded-xl shadow-md p-6">
+                <h2 class="text-2xl font-bold mb-4 text-apple-blue">Game Features</h2>
+                <ul class="list-disc pl-5 space-y-2">
+                    <li>Realistic drift physics and car handling</li>
+                    <li>Multiple tracks and environments to master</li>
+                    <li>Various high-performance vehicles to unlock</li>
+                    <li>Customizable car upgrades and modifications</li>
+                    <li>Competitive leaderboards to challenge friends</li>
+                    <li>Stunning graphics and immersive sound effects</li>
+                </ul>
+            </section>
+
+            <section class="bg-white dark:bg-gray-800 rounded-xl shadow-md p-6">
+                <h2 class="text-2xl font-bold mb-4 text-apple-blue">How to Play</h2>
+                <div class="space-y-3">
+                    <p>Use the arrow keys or WASD to control your vehicle:</p>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li>W or Up Arrow: Accelerate</li>
+                        <li>S or Down Arrow: Brake/Reverse</li>
+                        <li>A/D or Left/Right Arrows: Steer</li>
+                        <li>Space: Handbrake (for initiating drifts)</li>
+                    </ul>
+                    <p>Master the perfect timing of throttle, brake, and steering to achieve the longest and most controlled drifts!</p>
+                </div>
+            </section>
+        </div>
+
+        <section class="mb-12 bg-white dark:bg-gray-800 rounded-xl shadow-md p-6">
+            <h2 class="text-2xl font-bold mb-4 text-apple-blue">Become the Drift King</h2>
+            <div class="space-y-4">
+                <p>Drifting is an art form that requires precision, timing, and practice. In Leezkde, you'll learn to balance speed and control as you navigate challenging corners and hairpin turns.</p>
+                <p>Start with the basics: approach a corner at moderate speed, turn into the corner while tapping the handbrake, then counter-steer and modulate the throttle to maintain the perfect drift angle. With practice, you'll chain together spectacular drifts that earn you points and the admiration of other racers.</p>
+                <p>Challenge yourself on increasingly difficult tracks, unlock faster cars, and climb the global leaderboards to prove you're the ultimate Drift King!</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-apple-blue text-white py-6 px-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Leezkde. All rights reserved.</p>
+            <p class="mt-2">Experience the ultimate drift racing game at <a href="https://leezkde.online" class="underline">leezkde.online</a></p>
+        </div>
+    </footer>
+</body>
+</html>
